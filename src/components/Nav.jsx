@@ -1,5 +1,5 @@
 import React from "react";
-import Datetime from "./datetime";
+import Datetime from "./Datetime";
 
 const Nav = () => {        
   return (
