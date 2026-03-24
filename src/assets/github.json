@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "/dashboard.png",
+    "title": "Productivity Dashboard",
+    "description": "A modern productivity dashboard that helps users manage daily tasks, organize workflow, and track productivity in a clean UI.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "repoLink": "https://github.com/Haniaakanwal/Productivity-Dashboard-Project",
+    "demoLink": "https://haniaakanwal.github.io/Productivity-Dashboard-Project/"
+  },
+  {
+    "id": 2,
+    "image": "/weather.png",
+    "title": "Weather App",
+    "description": "A  weather application that displays real-time weather information of different cities with a simple and user-friendly interface.",
+    "tags": ["HTML", "CSS", "JavaScript", "API Integration"],
+    "repoLink": "https://github.com/Haniaakanwal/WeatherApp",
+    "demoLink": "https://haniaakanwal.github.io/WeatherApp/"
+  },
+  {
+    "id": 3,
+    "image": "/gallery.png",
+    "title": "React Image Gallery",
+    "description": "A  image gallery built using React and Tailwind CSS with modern UI layout and image filter effects like grayscale and blur.",
+    "tags": ["React.js", "Tailwind CSS", "JavaScript", "API Integration","Context Api"],
+    "repoLink": "https://github.com/Haniaakanwal/React_project5",
+    "demoLink": "https://react-project5-lyart.vercel.app"
+  },
+  {
+    "id": 4,
+    "image": "/piano.png",
+    "title": "Virtual Piano",
+    "description": "An interactive virtual piano built using HTML, CSS, and JavaScript. Play piano notes using your keyboard!",
+    "tags": ["HTML", "CSS", "JavaScript", "DOM Manipulation"],
+    "repoLink": "https://github.com/Haniaakanwal/DOM-TASK10",
+    "demoLink": "https://haniaakanwal.github.io/DOM-TASK10/"
+  }
+]

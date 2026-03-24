@@ -1,0 +1,109 @@
+/**
+ * profile.config.js
+ * Author: Hania Kanwal
+ * Summary: Frontend Developer Portfolio
+ */
+
+// --------------------------------------------------
+// 1. TECH STACK
+// --------------------------------------------------
+
+export const TECH_STACK = {
+  frontend: [
+    "HTML5",        // 100%
+    "CSS3",         // 95%
+    "JavaScript",   // 90%
+    "React.js",     // 85%
+    "Tailwind CSS", // 90%
+  ],
+
+  tools: [
+    "Git",      // 85%
+    "GitHub",   // 90%
+    "Figma",    // 75%
+    "VS Code",  // 95%
+  ]
+};
+
+
+// --------------------------------------------------
+// 2. PROJECT EXPERIENCE
+// --------------------------------------------------
+
+export const PROJECTS = [
+
+  {
+    name: "Productivity Dashboard",
+    role: "Frontend Developer",
+    description:
+      "A productivity dashboard that helps users manage daily tasks and track workflow efficiently.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    impact: "Improved UI organization and task management features.",
+    github: "https://github.com/Haniaakanwal/Productivity-Dashboard-Project"
+  },
+
+  {
+    name: "Weather App",
+    role: "Frontend Developer",
+    description:
+      "A responsive weather application that displays real-time weather information for different cities.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    impact: "Implemented dynamic data rendering and responsive UI.",
+    github: "https://github.com/Haniaakanwal/WeatherApp"
+  },
+
+  {
+    name: "Image Gallery",
+    role: "React Developer",
+    description:
+      "A modern image gallery built using React and Tailwind CSS with filtering effects like grayscale and blur.",
+    tech: ["React.js", "Tailwind CSS", "JavaScript"],
+    impact: "Built responsive grid layout and interactive UI gallery.",
+    github: "https://github.com/Haniaakanwal/React_project5"
+  }
+
+];
+
+
+// --------------------------------------------------
+// 3. COMPETENCIES
+// --------------------------------------------------
+
+export const COMPETENCIES = [
+  "Responsive Web Design",
+  "Modern UI Development",
+  "Component Based Architecture",
+  "React Development",
+  "Frontend Optimization"
+];
+
+
+// --------------------------------------------------
+// 4. EDUCATION
+// --------------------------------------------------
+
+export const EDUCATION = {
+  degree: "BS Software Engineering",
+  status: "Currently in 3rd Year",
+  focus: "Software Development and Web Technologies"
+};
+
+
+// --------------------------------------------------
+// 5. ABOUT
+// --------------------------------------------------
+
+export const ABOUT = {
+  name: "Hania Kanwal",
+  role: "Frontend Developer",
+
+  bio:
+    "Frontend developer passionate about creating modern, responsive, and interactive web applications using React, JavaScript and Tailwind CSS.",
+
+  interests: [
+    "Frontend Development",
+    "React Applications",
+    "UI/UX Design",
+    "Web Performance"
+  ]
+};
