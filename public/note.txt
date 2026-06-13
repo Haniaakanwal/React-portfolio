@@ -1,7 +1,7 @@
 /**
  * profile.config.js
  * Author: Hania Kanwal
- * Summary: Frontend Developer Portfolio
+ * Summary: Full Stack Developer Portfolio
  */
 
 // --------------------------------------------------
@@ -10,18 +10,46 @@
 
 export const TECH_STACK = {
   frontend: [
-    "HTML5",        // 100%
-    "CSS3",         // 95%
-    "JavaScript",   // 90%
-    "React.js",     // 85%
-    "Tailwind CSS", // 90%
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Tailwind CSS",
+    "SASS/SCSS",
+    "Responsive Design"
+  ],
+
+  backend: [
+    "Node.js",
+    "Express.js",
+    "REST API",
+    "JWT Authentication",
+    "Multer",
+    "Cookie Parser",
+    "bcrypt"
+  ],
+
+  database: [
+    "MongoDB",
+    "Mongoose",
+    "MongoDB Atlas"
+  ],
+
+  ai: [
+    "MediaPipe Face Landmarker",
+    "Blendshape Analysis",
+    "Real-time Video Processing"
   ],
 
   tools: [
-    "Git",      // 85%
-    "GitHub",   // 90%
-    "Figma",    // 75%
-    "VS Code",  // 95%
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Vite",
+    "NPM",
+    "ImageKit",
+    "Vercel",
+    "Render"
   ]
 };
 
@@ -33,33 +61,56 @@ export const TECH_STACK = {
 export const PROJECTS = [
 
   {
+    name: "MoodTunes",
+    role: "Full Stack Developer",
+    description:
+      "An AI-powered mood-based music player that detects facial expressions in real time and automatically plays songs based on the detected emotion.",
+    tech: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "MediaPipe",
+      "ImageKit"
+    ],
+    impact:
+      "Integrated AI emotion detection, JWT authentication, cloud storage, and a custom audio player.",
+    github: "https://github.com/Haniaakanwal"
+  },
+
+  {
+    name: "Postra",
+    role: "Full Stack Developer",
+    description:
+      "A social media platform inspired by Instagram with authentication, profile management, likes, comments, and follow/unfollow features.",
+    tech: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "ImageKit"
+    ],
+    impact:
+      "Built and deployed a production-ready full stack application with secure authentication and media uploads.",
+    github: "https://github.com/Haniaakanwal"
+  },
+
+  {
     name: "Productivity Dashboard",
     role: "Frontend Developer",
     description:
-      "A productivity dashboard that helps users manage daily tasks and track workflow efficiently.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    impact: "Improved UI organization and task management features.",
+      "A productivity application featuring task management, Pomodoro timer, daily planner, weather updates, and motivational quotes.",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "REST API",
+      "LocalStorage"
+    ],
+    impact:
+      "Improved daily workflow management through multiple integrated productivity tools.",
     github: "https://github.com/Haniaakanwal/Productivity-Dashboard-Project"
-  },
-
-  {
-    name: "Weather App",
-    role: "Frontend Developer",
-    description:
-      "A responsive weather application that displays real-time weather information for different cities.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    impact: "Implemented dynamic data rendering and responsive UI.",
-    github: "https://github.com/Haniaakanwal/WeatherApp"
-  },
-
-  {
-    name: "Image Gallery",
-    role: "React Developer",
-    description:
-      "A modern image gallery built using React and Tailwind CSS with filtering effects like grayscale and blur.",
-    tech: ["React.js", "Tailwind CSS", "JavaScript"],
-    impact: "Built responsive grid layout and interactive UI gallery.",
-    github: "https://github.com/Haniaakanwal/React_project5"
   }
 
 ];
@@ -70,11 +121,16 @@ export const PROJECTS = [
 // --------------------------------------------------
 
 export const COMPETENCIES = [
-  "Responsive Web Design",
-  "Modern UI Development",
-  "Component Based Architecture",
+  "Full Stack Web Development",
+  "REST API Development",
   "React Development",
-  "Frontend Optimization"
+  "Node.js & Express",
+  "MongoDB Database Design",
+  "JWT Authentication",
+  "Responsive Web Design",
+  "Cloud Storage Integration",
+  "AI Feature Integration",
+  "Performance Optimization"
 ];
 
 
@@ -84,8 +140,10 @@ export const COMPETENCIES = [
 
 export const EDUCATION = {
   degree: "BS Software Engineering",
+  university: "University of Azad Jammu & Kashmir",
+  duration: "2023 - 2027",
   status: "Currently in 3rd Year",
-  focus: "Software Development and Web Technologies"
+  focus: "Software Engineering and Web Technologies"
 };
 
 
@@ -95,14 +153,16 @@ export const EDUCATION = {
 
 export const ABOUT = {
   name: "Hania Kanwal",
-  role: "Frontend Developer",
+  role: "Full Stack Developer",
 
   bio:
-    "Frontend developer passionate about creating modern, responsive, and interactive web applications using React, JavaScript and Tailwind CSS.",
+    "Full Stack Developer with hands-on experience building and deploying modern web applications using React, Node.js, Express, and MongoDB. Passionate about creating scalable solutions and integrating AI-powered features into real-world applications.",
 
   interests: [
-    "Frontend Development",
+    "Full Stack Development",
     "React Applications",
+    "Backend Development",
+    "AI/ML Integration",
     "UI/UX Design",
     "Web Performance"
   ]

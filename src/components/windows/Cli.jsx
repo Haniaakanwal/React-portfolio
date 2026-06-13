@@ -1,109 +1,185 @@
-import Terminal from 'react-console-emulator'
-import Mainwindow from './Mainwindow'
+
+import Terminal from "react-console-emulator";
+import Mainwindow from "./Mainwindow";
 
 const commands = {
-
   about: {
-    description: 'About me',
+    description: "About me",
     fn: () => `
-Hi — I'm Hania 👋
-A Frontend Developer currently in 3rd year of Software Engineering.
+Hi — I'm Hania Kanwal 👋
 
-I build interactive web applications, dashboards,
-and modern UI-focused projects using React and JavaScript.
+Full Stack Developer
+BS Software Engineering (3rd Year)
+
+I build modern web applications using:
+• React.js
+• Node.js
+• Express.js
+• MongoDB
+
+Interested in AI-powered applications,
+REST APIs, and scalable web solutions.
 `
   },
 
   skills: {
-    description: 'My skills',
+    description: "My skills",
     fn: () => `
 Skills:
 
-• Frontend Development
+• Full Stack Development
 • React.js
-• JavaScript (ES6)
-• Responsive Design
-• UI/UX Design
-• API Integration
-• Problem Solving
+• JavaScript (ES6+)
+• Node.js
+• Express.js
+• MongoDB
+• REST API Development
+• JWT Authentication
+• Tailwind CSS
+• AI Integration (MediaPipe)
+• Git & GitHub
 `
   },
 
   tech: {
-    description: 'Technologies I use',
+    description: "Technologies I use",
     fn: () => `
-Tech Stack:
+Tech Stack
 
-React.js
-JavaScript
-Tailwind CSS
-HTML5
-CSS3
-Git & GitHub
+Frontend:
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Tailwind CSS
+
+Backend:
+- Node.js
+- Express.js
+
+Database:
+- MongoDB
+- Mongoose
+
+Tools:
+- Git
+- GitHub
+- VS Code
+- ImageKit
+- Render
+- Vercel
 `
   },
 
   projects: {
-    description: 'Featured projects',
+    description: "Featured projects",
     fn: () => `
-Projects:
+Projects
 
-1. Productivity Dashboard
-   → Task manager + planner + pomodoro + weather
+1. MoodTunes
+   AI-powered mood-based music player
+   React + Node + MongoDB + MediaPipe
 
-2. Weather App
-   → Real-time weather using Open-Meteo API
+2. Postra
+   Full Stack social media platform
+   JWT + ImageKit + MongoDB
 
-3. React Image Gallery
-   → Dynamic gallery with filters & pagination (Tailwind + API)
+3. Productivity Dashboard
+   Task Manager + Pomodoro + Weather
+`
+  },
+
+  education: {
+    description: "Education",
+    fn: () => `
+BS Software Engineering
+
+University of Azad Jammu & Kashmir
+
+2023 - 2027
+Currently in 3rd Year
+`
+  },
+
+  resume: {
+    description: "Professional summary",
+    fn: () => `
+Full Stack Developer with hands-on
+experience building and deploying
+production-ready web applications.
+
+Core Stack:
+React.js
+Node.js
+Express.js
+MongoDB
+REST APIs
+JWT Authentication
 `
   },
 
   contact: {
-    description: 'Contact info',
+    description: "Contact information",
     fn: () => `
-Contact:
+Contact
 
-GitHub: https://github.com/Haniaakanwal
-Email: Haniakanwal239@gmail.com
+Email:
+haniakanwal239@gmail.com
+
+GitHub:
+https://github.com/Haniaakanwal
+
+LinkedIn:
+https://linkedin.com/in/your-linkedin
+
+Portfolio:
+https://your-portfolio-link.com
 `
   },
 
   echo: {
-    description: 'Echo text',
-    usage: 'echo <text>',
-    fn: (...args) => args.join(' ')
+    description: "Echo text",
+    usage: "echo <text>",
+    fn: (...args) => args.join(" ")
   }
-
-}
+};
 
 const Cli = ({ windowName, setWindowsState }) => {
   return (
-    <Mainwindow windowName={windowName} setWindowsState={setWindowsState}>
-      <div className="h-full w-full bg-black border rounded-md p-2 ">
-        <Terminal 
+    <Mainwindow
+      windowName={windowName}
+      setWindowsState={setWindowsState}
+    >
+      <div className="h-full w-full bg-black border rounded-md p-2">
+        <Terminal
           commands={commands}
           welcomeMessage={`
-Welcome to Hania CLI Portfolio 💻
+Welcome to Hania Kanwal's Portfolio 💻
 
-Type "help" to see available commands.
+Full Stack Developer
+React • Node.js • MongoDB • AI
+
+Type "help" to see all available commands.
 `}
-          promptLabel={'hania@portfolio:~$'}
-          promptLabelStyle={{ color: '#ff79c6' }}
+          promptLabel={"hania@fullstack:~$"}
+          promptLabelStyle={{
+            color: "#ff79c6"
+          }}
           style={{
-            background: 'transparent',
-            color: '#00ff9f',
-            fontSize: '14px',
-            borderRadius: '5px',
-            marginBottom: '40px',
-            overflow: 'auto',
-            scrollbarWidth: 'none',
-            msOverflowStyle: 'none'
+            background: "transparent",
+            color: "#00ff9f",
+            fontSize: "14px",
+            borderRadius: "5px",
+            marginBottom: "40px",
+            overflow: "auto",
+            scrollbarWidth: "none",
+            msOverflowStyle: "none"
           }}
         />
       </div>
     </Mainwindow>
-  )
-}
+  );
+};
 
-export default Cli
+export default Cli;
+

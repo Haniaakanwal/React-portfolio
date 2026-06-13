@@ -5,7 +5,7 @@ const Pdf = ({ windowName, setWindowsState }) => {
   return (
     <Mainwindow  windowName={windowName} setWindowsState={setWindowsState}>
         <div className="resume h-full w-full overflow-auto">
-          <embed src="../public/resume.pdf" type="" className='h-full w-full' />   
+          <embed src="../public/HaniaKanwal_Resume.pdf" type="" className='h-full w-full' />   
         </div>
        
     </Mainwindow>

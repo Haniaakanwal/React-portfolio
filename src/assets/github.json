@@ -1,38 +1,57 @@
 [
-  {
+    {
     "id": 1,
+    "image": "/moodtunes.png",
+    "title": "MoodTunes - AI Powered Music Player",
+    "description": "Real-time emotion detection app using MediaPipe Face Landmarker that classifies 4 moods (Happy, Sad, Surprise, Neutral) via weighted blendshape scoring and auto-plays mood-matched songs from a MongoDB library. Includes JWT authentication, REST APIs, and custom audio player with queue management.",
+    "tags": ["React.js", "Node.js", "Express.js", "MongoDB", "MediaPipe", "JWT", "ImageKit"],
+    "repoLink": "https://github.com/Haniaakanwal/MoodTunes",
+    "demoLink": "https://moodtunes-68ur.onrender.com/"
+  },
+  {
+    "id": 2,
+    "image": "/postra.png",
+    "title": "Postra - Full Stack Social Media Platform",
+    "description": "Instagram-inspired full-stack social media platform with JWT authentication using HTTP-only cookies. Includes profile photo uploads via Multer and ImageKit, dynamic feed, real-time like/unlike, follow/unfollow, and production deployment on Render with MongoDB Atlas.",
+    "tags": ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "ImageKit", "REST API"],
+    "repoLink": "https://github.com/Haniaakanwal/Postra",
+    "demoLink": "https://postra-1xssq0kbv-haniaakanwals-projects.vercel.app/"
+  },
+  {
+    "id": 3,
     "image": "/dashboard.png",
     "title": "Productivity Dashboard",
-    "description": "A modern productivity dashboard that helps users manage daily tasks, organize workflow, and track productivity in a clean UI.",
-    "tags": ["HTML", "CSS", "JavaScript"],
+    "description": "A full-featured productivity dashboard for task management, workflow organization, Pomodoro timer, weather updates, and daily planning with persistent local storage.",
+    "tags": ["HTML", "CSS", "JavaScript", "LocalStorage", "API"],
     "repoLink": "https://github.com/Haniaakanwal/Productivity-Dashboard-Project",
     "demoLink": "https://haniaakanwal.github.io/Productivity-Dashboard-Project/"
   },
   {
-    "id": 2,
+    "id": 4,
     "image": "/weather.png",
     "title": "Weather App",
-    "description": "A  weather application that displays real-time weather information of different cities with a simple and user-friendly interface.",
-    "tags": ["HTML", "CSS", "JavaScript", "API Integration"],
+    "description": "A responsive weather application that fetches and displays real-time weather data for any city using a public API with a clean and simple UI.",
+    "tags": ["HTML", "CSS", "JavaScript", "API Integration", "Fetch API"],
     "repoLink": "https://github.com/Haniaakanwal/WeatherApp",
     "demoLink": "https://haniaakanwal.github.io/WeatherApp/"
   },
   {
-    "id": 3,
+    "id": 5,
     "image": "/gallery.png",
     "title": "React Image Gallery",
-    "description": "A  image gallery built using React and Tailwind CSS with modern UI layout and image filter effects like grayscale and blur.",
-    "tags": ["React.js", "Tailwind CSS", "JavaScript", "API Integration","Context Api"],
+    "description": "A modern image gallery built with React and Tailwind CSS featuring filtering effects such as grayscale and blur, along with a responsive grid layout.",
+    "tags": ["React.js", "Tailwind CSS", "JavaScript", "Context API"],
     "repoLink": "https://github.com/Haniaakanwal/React_project5",
     "demoLink": "https://react-project5-lyart.vercel.app"
   },
   {
-    "id": 4,
+    "id": 6,
     "image": "/piano.png",
     "title": "Virtual Piano",
-    "description": "An interactive virtual piano built using HTML, CSS, and JavaScript. Play piano notes using your keyboard!",
-    "tags": ["HTML", "CSS", "JavaScript", "DOM Manipulation"],
+    "description": "An interactive virtual piano built using HTML, CSS, and JavaScript that allows users to play musical notes using keyboard input.",
+    "tags": ["HTML", "CSS", "JavaScript", "DOM Manipulation", "Events"],
     "repoLink": "https://github.com/Haniaakanwal/DOM-TASK10",
     "demoLink": "https://haniaakanwal.github.io/DOM-TASK10/"
   }
+
 ]
